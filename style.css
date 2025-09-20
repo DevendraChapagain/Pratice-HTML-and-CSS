@@ -170,6 +170,29 @@ ul li {
   gap: 60px; /* space between text and video */
   margin-top: 120px;
 }
+.sub-heading{
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #1f514c;
+  margin-bottom: 24px;
+}
+
+.heading{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  color: #183b37;
+  margin: 0 0 16px 0;
+}
+
+.about-description {
+  margin: 32px 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #161616;
+}
 
 .about-contain {
   flex: 1;
@@ -185,51 +208,74 @@ ul li {
   background-color: #1f514c;
 }
 
-/* Text styles */
-.sub-heading {
+
+/* Main container */
+.service-container-main {
+  display: flex;
+  flex-direction: column; /* stack heading + services vertically */
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+/* Heading area */
+.service-sub-heading {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   color: #1f514c;
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
 }
 
-.heading {
+.service-heading-main {
   font-size: 48px;
-  font-weight: 500;
-  line-height: 58px;
   font-weight: 800;
+  line-height: 58px;
   color: #183b37;
   margin: 0 0 16px 0;
 }
 
-.about-description {
-  margin: 32px 0;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 30px;
-  color: #161616;
+/* Service boxes wrapper */
+.service-box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap; /* makes it responsive on smaller screens */
 }
 
-
-.service-container {
+/* Individual service box */
+.service-box {
   width: 412px;
-  height: 236px; /* centers the whole container horizontally */
-  gap: 60px; /* space between text and video */
-  background-color: rgb(67, 168, 168);
+  min-height: 236px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgb(201, 236, 236);
 }
 
-
+/* Icon */
 .service-icon img {
   width: 40px;
   height: 40px;
   object-fit: contain;
 }
 
+/* Heading inside service box */
 .service-heading {
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
   color: #183B37;
-  margin: 16px 0;
+  margin: 16px 0 12px;
+}
+
+/* Description inside service box */
+.service-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #161616;
 }
