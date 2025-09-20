@@ -170,7 +170,7 @@ ul li {
   gap: 60px; /* space between text and video */
   margin-top: 120px;
 }
-.sub-heading{
+.sub-heading {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
@@ -178,7 +178,7 @@ ul li {
   margin-bottom: 24px;
 }
 
-.heading{
+.heading {
   font-size: 48px;
   font-weight: 800;
   line-height: 58px;
@@ -207,7 +207,6 @@ ul li {
   margin-right: 100px;
   background-color: #1f514c;
 }
-
 
 /* Main container */
 .service-container-main {
@@ -268,7 +267,7 @@ ul li {
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
-  color: #183B37;
+  color: #183b37;
   margin: 16px 0 12px;
 }
 
